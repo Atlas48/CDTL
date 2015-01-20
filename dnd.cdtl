@@ -1,0 +1,41 @@
+name(hash){
+charname(string), playername(string)
+},
+details(hash){
+clarrace(hash){
+class(hash){
+primary(string), secondary(string)
+},
+race(string),
+subrace(string),
+},
+gender(hash){
+male(bool),
+female(bool),
+other(bool),
+},
+alignment(hash){
+lc(string), ge(string)},
+description(array),
+},
+stats(hash){
+base(hash){
+str(int),
+dex(int),
+con(int),
+int(int),
+wis(int),
+cha(int)
+},
+other(hash){
+hp(int),
+height(float),
+weight(float),
+speed(int),
+}
+}
+abillities(hash)(
+extrasensory(array),
+extraordinary(array),
+}
+
